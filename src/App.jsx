@@ -1,7 +1,10 @@
-
+import { Fragment } from 'react'
+import Header from "./components/Header/Header"
 function App() {
   return (
-    <h1>portfolio</h1>
+    <Fragment>
+      <Header />
+    </Fragment>
   )
 }
 

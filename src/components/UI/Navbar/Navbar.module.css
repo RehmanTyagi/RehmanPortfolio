@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.5px;
+}
+
+.navbar li a::after {
+    content: '';
+    border-top: 1px solid var(--primary);
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+}
+
+.navbar li a:hover::after {
+    width: 100%;
+}
+
+.navbar li a:hover {
+    color: var(--primary);
+}
+
+.navbar .active {
+    color: var(--primary);
+    border-top: 1px solid var(--primary);
+}

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em 1em;
+}
+
+.contactBtn {
+    box-shadow: 10px 10px 0 1px var(--secondary);
+    transition: 300ms ease-in-out;
+}
+
+.contactBtn:hover {
+    outline: 2px solid red;
+    color: var(--secondary);
+    box-shadow: none;
+    background-color: transparent;
+}

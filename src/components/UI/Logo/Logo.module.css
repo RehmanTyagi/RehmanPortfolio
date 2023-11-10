@@ -1,0 +1,20 @@
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    text-decoration: none;
+}
+
+.logoName,
+.letter {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.letter {
+    color: white;
+    padding: 0 .5em;
+    border-radius: 100%;
+    background-color: var(--primary);
+}
