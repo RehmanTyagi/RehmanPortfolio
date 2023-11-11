@@ -5,6 +5,8 @@ import CenterContent from "../UI/CenterContent/CenterContent"
 import { BiLogoYoutube } from 'react-icons/bi'
 import { CiInstagram, CiFacebook, CiLinkedin } from 'react-icons/ci'
 import { useTypewriter } from 'react-simple-typewriter'
+
+import Banner from '../../assets/Banner.png'
 const Hero = () => {
     const [text] = useTypewriter({
         words: ['Actress', 'Model', 'TradingExpert'], loop: true
@@ -46,7 +48,7 @@ const Hero = () => {
                                 <h1>currently Open For</h1>
                                 <p>Sponsorships</p>
                             </Card>
-                            <img src="../../../public/Banner.png" alt="banner" />
+                            <img src={Banner} alt="banner" />
                         </div>
                         <img className={style.shape} src="../../../public/shape-1.svg" alt="shape" />
                     </div>
