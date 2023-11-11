@@ -9,8 +9,7 @@
     position: relative;
     text-decoration: none;
     color: var(--secondary);
-    font-weight: 500;
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: -.5px;
 }
 

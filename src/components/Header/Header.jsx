@@ -5,11 +5,13 @@ import Navbar from "../UI/Navbar/Navbar"
 import Button from "../UI/Button/Button"
 const Header = () => {
     return (
-        <CenterContent className={style.header}>
-            <Logo />
-            <Navbar />
-            <Button className={style.contactBtn} text="Contact" />
-        </CenterContent>
+        <div className={style.container}>
+            <CenterContent className={style.header}>
+                <Logo />
+                <Navbar />
+                <Button className={style.contactBtn}>Contact Me</Button>
+            </CenterContent>
+        </div>
     )
 }
 

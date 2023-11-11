@@ -1,3 +1,7 @@
+.container {
+    background-color: var(--bg);
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -8,10 +12,11 @@
 .contactBtn {
     box-shadow: 10px 10px 0 1px var(--secondary);
     transition: 300ms ease-in-out;
+    text-transform: capitalize;
 }
 
 .contactBtn:hover {
-    outline: 2px solid red;
+    outline: 2px solid var(--primary);
     color: var(--secondary);
     box-shadow: none;
     background-color: transparent;

@@ -1,7 +1,7 @@
 import style from './Button.module.css'
-const Button = ({ text, type, className }) => {
+const Button = ({ children, type, className }) => {
     return (
-        <button type={type} className={`${style.btn} ${className}`}>{text}</button>
+        <button type={type} className={`${style.btn} ${className}`}>{children}</button>
     )
 }
 

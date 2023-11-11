@@ -1,0 +1,120 @@
+.container {
+    color: white;
+    background-color: var(--bg);
+}
+
+.hero {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    padding: 2em 1.5em 10rem;
+}
+
+.banner {
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+}
+
+.banner img {
+    height: 500px;
+}
+
+.banner .card {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    font-size: .5rem;
+}
+
+.banner .card:nth-child(2) {
+    left: 220px;
+    text-transform: capitalize;
+    top: 300px;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.leftContent {
+    display: grid;
+    letter-spacing: 1px;
+    gap: 1rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.leftContent p:nth-child(5) {
+    font-size: 1rem;
+    color: lightgray;
+}
+
+.leftContent h1 {
+    font-size: 3.5rem;
+    color: var(--primary);
+}
+
+.leftContent img,
+.shape {
+    height: 80px;
+    width: 80px;
+}
+
+.leftContent img:last-child {
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+}
+
+.leftContent .keyword {
+    color: var(--primary);
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cta .ctaIcon {
+    outline: 2px solid var(--primary);
+    color: var(--primary);
+    cursor: pointer;
+    padding: .3rem;
+    border-radius: 5px;
+    display: flex;
+    transition: 200ms ease-in-out;
+}
+
+.ctaIcon:hover {
+    color: white;
+    background-color: var(--primary);
+}
+
+.ctaBtn {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.ctaBtn .icon {
+    position: relative;
+    top: 2px;
+    font-size: 2rem;
+}
+
+.rightContent {
+    position: relative;
+}
+
+.rightContent .shape {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 100px;
+    height: 100px;
+}
