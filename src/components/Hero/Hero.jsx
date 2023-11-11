@@ -7,6 +7,8 @@ import { CiInstagram, CiFacebook, CiLinkedin } from 'react-icons/ci'
 import { useTypewriter } from 'react-simple-typewriter'
 
 import Banner from '../../assets/Banner.png'
+import Shape1 from '../../assets/shape-1.svg'
+import Shape2 from '../../assets/shape-2.svg'
 const Hero = () => {
     const [text] = useTypewriter({
         words: ['Actress', 'Model', 'TradingExpert'], loop: true
@@ -16,7 +18,7 @@ const Hero = () => {
             <CenterContent>
                 <div className={style.hero}>
                     <div className={style.leftContent}>
-                        <img src="../../../public/shape-2.svg" alt="shape" />
+                        <img src={Shape2} alt="shape" />
                         <p>Hello</p>
                         <h1>{"I'M Srishti Singh"}</h1>
                         <p>She is <span className={style.keyword}>{text}</span></p>
@@ -36,7 +38,7 @@ const Hero = () => {
                                 <BiLogoYoutube />
                             </span>
                         </div>
-                        <img src="../../../public/shape-2.svg" alt="shape" />
+                        <img src={Shape2} alt="shape" />
                     </div>
                     <div className={style.rightContent}>
                         <div className={style.banner}>
@@ -50,7 +52,7 @@ const Hero = () => {
                             </Card>
                             <img src={Banner} alt="banner" />
                         </div>
-                        <img className={style.shape} src="../../../public/shape-1.svg" alt="shape" />
+                        <img className={style.shape} src={Shape1} alt="shape" />
                     </div>
                 </div>
             </CenterContent>

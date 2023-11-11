@@ -1,13 +1,15 @@
 import style from './Information.module.css'
 import CenterContent from '../UI/CenterContent/CenterContent'
 import Button from '../UI/Button/Button'
+
+import Profile from '../../assets/profile.png'
 const Information = () => {
     return (
         <div className={style.section}>
             <CenterContent>
                 <div className={style.information}>
                     <div className={style.profileContainer}>
-                        <img className={style.profile} src="../../../public/profile.png" alt="profile" />
+                        <img className={style.profile} src={Profile} alt="profile" />
                     </div>
                     <div className={style.rightContent}>
                         <p>About Me</p>
