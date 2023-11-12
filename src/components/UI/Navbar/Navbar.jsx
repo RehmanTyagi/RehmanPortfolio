@@ -1,7 +1,7 @@
 import style from './Navbar.module.css'
-const Navbar = () => {
+const Navbar = ({ className }) => {
     return (
-        <div className={style.navbar}>
+        <div className={`${style.navbar} ${className}`}>
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About Me</a></li>
             <li><a href="#services">Services</a></li>

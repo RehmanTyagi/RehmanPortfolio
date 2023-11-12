@@ -21,3 +21,63 @@
     box-shadow: none;
     background-color: transparent;
 }
+
+.menuIcon {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .menuIcon {
+        color: white;
+        position: relative;
+        z-index: 1;
+        margin-right: 10px;
+        display: block;
+    }
+
+    .menuActive {
+        position: fixed;
+        right: 10px;
+        z-index: 11;
+        color: black;
+    }
+
+    .NavbarActive {
+        transform: translateX(0) !important;
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(-100%);
+        transition: 300ms ease-in-out;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+    }
+
+    .header .navbar li a {
+        color: black;
+    }
+
+    .header div {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+@media (max-width:500px) {
+    .contactBtn {
+        font-size: .8rem !important;
+        box-shadow: none;
+    }
+
+    .header div {
+        gap: 1rem;
+    }
+}

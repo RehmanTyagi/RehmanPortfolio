@@ -118,3 +118,64 @@
     width: 100px;
     height: 100px;
 }
+
+@media (max-width:1000px) {
+    .hero {
+        grid-template-columns: 1fr;
+        grid-gap: 5rem;
+    }
+
+    .banner {
+        margin: auto;
+    }
+
+    .leftContent {
+        justify-content: center;
+    }
+
+    .rightContent .shape {
+        right: 200px;
+    }
+
+    .leftContent img:last-child {
+        right: 550px;
+        top: 450px;
+    }
+}
+
+@media (max-width:500px) {
+    .ctaBtn {
+        padding: .5em;
+        gap: 0;
+        font-size: .7rem;
+    }
+
+    .hero {
+        padding: 2rem;
+        display: block;
+    }
+
+    .leftContent p:nth-child(4) {
+        font-size: 1.5rem;
+    }
+
+    .leftContent p:nth-child(5) {
+        font-size: 1rem;
+    }
+
+    .rightContent .banner img {
+        height: 400px;
+    }
+
+    .banner .card:nth-child(2) {
+        left: 100px !important;
+    }
+
+    .banner {
+        width: auto;
+    }
+
+    .rightContent .shape {
+        display: none;
+    }
+}

@@ -14,6 +14,10 @@
     width: 100%;
 }
 
+.contactInfo .icon {
+    color: var(--primary);
+}
+
 .profileContainer::after {
     z-index: -1;
     content: '';
@@ -43,4 +47,40 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+}
+
+@media (max-width:1000px) {
+    .information {
+        grid-template-columns: auto;
+    }
+
+    .profileContainer {
+        margin: auto;
+    }
+
+    .profileContainer .profile {
+        height: 300px;
+        width: 300px;
+    }
+
+    .profileContainer::after {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width:500px) {
+    .information {
+        padding: 2rem;
+    }
+
+    .profileContainer .profile {
+        width: 250px;
+        height: 250px;
+    }
+
+    .profileContainer::after {
+        height: 250px;
+        width: 250px;
+    }
 }
