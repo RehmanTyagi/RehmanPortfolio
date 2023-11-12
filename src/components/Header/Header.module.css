@@ -9,6 +9,14 @@
     padding: 2em 1em;
 }
 
+.scrollActive {
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .8);
+    position: fixed;
+    top: 0;
+}
+
 .contactBtn {
     box-shadow: 10px 10px 0 1px var(--secondary);
     transition: 300ms ease-in-out;
