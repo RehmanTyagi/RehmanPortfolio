@@ -144,6 +144,10 @@
 }
 
 @media (max-width:500px) {
+    .leftContent img {
+        display: none;
+    }
+
     .ctaBtn {
         padding: .5em;
         gap: 0;
