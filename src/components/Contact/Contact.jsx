@@ -26,9 +26,9 @@ const Contact = () => {
                 <div className={style.body}>
                     <div className={style.contactInfo}>
                         <label>Phone</label>
-                        <p><BiPhoneCall className={style.icon} /> 011-2932932382</p>
+                        <p><BiPhoneCall className={style.icon} /> 8882109810</p>
                         <label>Email</label>
-                        <p><BiMailSend className={style.icon} /> srishtisingh@gmail.com</p>
+                        <p><BiMailSend className={style.icon} /> srishtisingh8810@gmail.com</p>
                         <label>Location</label>
                         <p><BiCurrentLocation className={style.icon} /> Mandoli, Delhi 93, India</p>
                     </div>

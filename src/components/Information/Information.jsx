@@ -22,9 +22,9 @@ const Information = () => {
                             <div><BiUser className={style.icon} /> Name</div>
                             <p>Srishti Singh</p>
                             <div><BiMailSend className={style.icon} /> email</div>
-                            <a href="mailto:realsrishti2023@gmail.com">Not Available</a>
+                            <a className={style.contactLink} href="mailto:srishtisingh8810@gmail.com">srishtisingh8810@gmail.com</a>
                             <div><BiSolidContact className={style.icon} /> Contact No</div>
-                            <a href="tel:100">Not Available</a>
+                            <a className={style.contactLink} href="tel:8882109810">8882109810</a>
                             <div><BiMale className={style.icon} /> Age</div>
                             <p>Not Available</p>
                             <div><BiBookHeart className={style.icon} /> Education</div>
